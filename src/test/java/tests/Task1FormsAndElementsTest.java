@@ -16,10 +16,9 @@ public class Task1FormsAndElementsTest extends BaseTest {
 
         // Fill form fields
         elementsPage.fillTextBoxForm(
-                "John Doe",
-                "john.doe@example.com",
-                "123 Main Street, City",
-                "456 Oak Avenue, Town"
+                "Ayush Patel",
+                "ayushpatel@gmail.com",
+                "123 Main Street, noida",
         );
 
         // Submit form
@@ -36,6 +35,6 @@ public class Task1FormsAndElementsTest extends BaseTest {
         Assert.assertTrue(result.contains("Impressive"),
                 "Radio button selection verification failed");
 
-        System.out.println("✅ Task 1 - Forms and Elements: PASSED");
+        System.out.println("Task 1 - Forms and Elements: PASSED");
     }
 }

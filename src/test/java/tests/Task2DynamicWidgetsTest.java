@@ -30,6 +30,6 @@ public class Task2DynamicWidgetsTest extends BaseTest {
         String formattedDate = futureDate.format(DateTimeFormatter.ofPattern("MM/dd/yyyy"));
         widgetsPage.setDate(formattedDate);
 
-        System.out.println("✅ Task 2 - Dynamic Widgets: PASSED");
+        System.out.println("Task 2 - Dynamic Widgets: PASSED");
     }
 }

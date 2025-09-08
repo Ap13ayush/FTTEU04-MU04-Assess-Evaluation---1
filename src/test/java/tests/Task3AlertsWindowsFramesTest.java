@@ -39,6 +39,6 @@ public class Task3AlertsWindowsFramesTest extends BaseTest {
         Assert.assertTrue(frameText.contains("This is a sample page"),
                 "Frame text verification failed");
 
-        System.out.println("✅ Task 3 - Alerts, Windows & Frames: PASSED");
+        System.out.println("Task 3 - Alerts, Windows & Frames: PASSED");
     }
 }

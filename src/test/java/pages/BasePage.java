@@ -43,7 +43,7 @@ public class BasePage {
     protected void scrollToElement(WebElement element) {
         js.executeScript("arguments[0].scrollIntoView(true);", element);
         try {
-            Thread.sleep(500);
+            Thread.sleep(700);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }

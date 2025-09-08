@@ -27,6 +27,6 @@ public class Task4JavaScriptExecutorTest extends BaseTest {
         Assert.assertTrue(clickResult.contains("You have done a dynamic click"),
                 "JavaScript click verification failed");
 
-        System.out.println("✅ Task 4 - JavaScript Executor: PASSED");
+        System.out.println("Task 4 - JavaScript Executor: PASSED");
     }
 }
